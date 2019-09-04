@@ -1,0 +1,91 @@
+nav{
+    font-size: 1.3rem;
+    background-color: #C10D0D;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+nav a{
+    color:whitesmoke;
+    font-family: 'Merriweather', serif;
+}
+
+.nav-link{
+    margin-left: 150px;
+}
+
+nav a:hover{
+    color:black;    
+}
+  
+a:visited{
+    color:whitesmoke;
+}
+
+@media(max-width:767px){
+    .nav-link{
+        margin-left: 0px;
+    }      
+}
+
+.logoo{
+    margin-top: 65px;
+}
+
+.Alogo{
+    height:310px;
+    width:auto;
+}
+
+.def{
+    margin: -14px 0 30;
+    padding-top:10px;    
+    background-image: linear-gradient(to right,white ,rgba(108, 151, 252, 0.76));
+    font-family: 'Amiri', serif;
+}
+
+div p{
+    padding: 20px 0;
+    font-family: 'Amiri', serif;
+    font-size: 1.5rem;
+}
+
+h1{
+   padding-top: 10px;
+   margin-bottom: 0px;
+}
+
+.lower{
+    text-align: center;
+    background-color: #1F2421;
+    font-size: 25px;
+    word-spacing: 50px;
+    margin-bottom: 0%;
+    color:whitesmoke;
+    }
+
+.lower a:hover{
+color:#5A89FC;    
+}
+
+a{
+    color: whitesmoke;
+}
+
+.bttn{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #5A89FC; 
+    border-radius:8px;
+    padding: 3px 10px;      
+}
+
+.bttn:hover {
+background-color: #5A89FC;
+color: white;
+}
