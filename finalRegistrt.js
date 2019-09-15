@@ -17,7 +17,7 @@ $(document).ready(function(){
 	   result.text("");
        
 	    if (validateEmail(emaill)) {
-               $(this).css("borderColor", "green");
+               $(this).css("borderColor", "rgba(108, 151, 252, 0.76)");
                result.text("");
                econd=1;
         } 
@@ -53,7 +53,7 @@ $(document).ready(function(){
            }
         }
 
-    if(tcond==1) $(this).css("borderColor","green");    
+    if(tcond==1) $(this).css("borderColor","rgba(108, 151, 252, 0.76)");    
     });
 
     //*****************************************************************************
@@ -79,15 +79,15 @@ $(document).ready(function(){
 
         else if(cond==1){
             if(econd==1 && $id==7)
-            $(this).css("borderColor","green");
+            $(this).css("borderColor","rgba(108, 151, 252, 0.76)");
             
 
             else if(tcond==1 && ($id==1 || $id==2 || $id==3 || $id==4))           
-            $(this).css("borderColor","green");
+            $(this).css("borderColor","rgba(108, 151, 252, 0.76)n");
             
 
             else if($id==6 || $id==5 || $id==8 || $id==9)
-            $(this).css("borderColor","green");        
+            $(this).css("borderColor","rgba(108, 151, 252, 0.76)");        
         }
 
 
