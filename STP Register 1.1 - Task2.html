@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>STP-Register</title>
+	<link href="TT2.css" rel="stylesheet">
+	<link href="http://www.stp-egypt.com/logo.png" rel="icon" type="image/jpg">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Amiri|Merriweather|Lora&display=swap" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+     
+
+    <style>
+
+    .sel{
+    width:248px;
+    margin:10px auto 0px;
+    border-color: rgba(108, 151, 252, 0.76);
+    border-radius:8px;
+    color: #1F2421;
+    }    
+    
+    input{
+    margin-top: 10px;
+    font-size: 1rem;
+    }
+    </style>
+</head>
+
+<body class="text-center">
+        <!-- NavBar -->
+	<nav class="navbar navbar-expand-md fixed-top">
+		<div class="container-fluid" style="height: 40px">
+			<img alt="STP" src="http://www.stp-egypt.com/logo.png"> <span>STP</span>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="STP Home - Task1.html">Home</a>
+				</li>
+			</ul>
+		</div>
+        </nav>
+        
+        <!-- Sign Up -->
+	<div class="text-center main">
+		<h2 class="setH">Registeration Form</h2>
+                
+        <!-- Form -->
+		<form>
+                        
+            <h5 class="setH">Full Name:<br> <input class="shad text" id="1" type="text" placeholder="e.g. Muhammed Salah Ahmed"></h5>
+            <h6 id="no1"></h6>
+                                                
+            <h5 class="setH">University:<br>  <input class="shad text" id="2" type="text" placeholder="e.g. Ain Shams"></h5>
+            <h6 id="no2"></h6>
+                        
+            <h5 class="setH">Faculty:<br>     <input class="shad text" id="3" type="text" placeholder="e.g. Engineering"></h5>
+            <h6 id="no3"></h6>
+                        
+            <h5 class="setH">Year:<br>
+			    <select name="Year" class="form-control sel shad" id="4">
+                    <option value="" disabled selected>Choose a Year</option>
+				    <option>First</option>
+				    <option>Second</option>
+				    <option>Third</option>
+				    <option>Fourth</option>
+				    <option>Fifth</option>
+				    <option>Sixth</option>
+				    <option>Seventh</option>
+                </select></h5>
+                        
+            <h5 class="setH">Phone Number:<br> <input class="shad" id="5" type="number" placeholder="e.g. 01*********"></h5>
+            <h6 id="no5"></h6>
+            
+            <h5 class="setH">Email:<br>        <input class="shad email" id="6" type="email" placeholder="e.g. example@example.com"></h5>
+            <h6 id="no6"></h6>
+
+            <h5 class="setH">First Prefrence:<br>
+                <select id="7" name="1st pref" class="s1 form-control sel shad" >
+                    <option disabled selected>Choose a pref</option>
+                    <option id="s11" >Eng-android</option>
+                    <option id="s12" >Eng-IOT</option>
+                    <option id="s13" >Eng-ML</option>
+                    <option id="s14" >Eng-Robotics</option>
+                </select>
+            </h5>
+
+            <h5 class="setH">Second Prefrence:<br>
+                <select id="8" name="2nd pref" class="s0 form-control sel shad" >
+                    <option value="" disabled selected>Choose a pref</option>
+                    <option id="s01" >Eng-android</option>
+                    <option id="s02" >Eng-IOT</option>
+                    <option id="s03" >Eng-ML</option>
+                    <option id="s04" >Eng-Robotics</option>
+                </select>
+            </h5>    
+                        
+            <br>
+            
+			<button class="bttn" >Submit</button>        
+        </form>
+    </div>
+        
+        <!-- Footer -->
+	<div class="lower">
+                <a href="https://www.facebook.com/STP.Organization/" target="_blank"><i class="fab fa-facebook-square"></i></a> 
+                <a href="https://www.twitter.com/STP_Egypt?fbclid=IwAR2HHTwh5H9C5yqZ89aCsvW7xGWPmKxU40tuo-BmuyCrljf1X9fxSzl6VkU" target="_blank"><i class="fab fa-twitter-square"></i></a> 
+                <a href="https://www.youtube.com/user/STPchannel?fbclid=IwAR1xGCJWuAhBW1ItAIp8p7OhM4Xiy8xO9-mtJeD_qAmkgM3wcYPMVArScSg" target="_blank"><i class="fab fa-youtube-square"></i></a> 
+                <a href="https://instagram.com/STP_Egypt?fbclid=IwAR3QuvLNOeO2SB-OgdY-xUTmXuetMQ5DIFVtQXZ8HeAgjb-HSYN9gi1nD2Q" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+        
+<!-- JavaScribt -->
+<script src="finalRegistrt.js"> </script> 
+</body>
+</html>
